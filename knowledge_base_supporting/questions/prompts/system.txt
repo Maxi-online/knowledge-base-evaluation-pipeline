@@ -1,0 +1,1 @@
+Generate two answerable English questions grounded only in the supplied source chunk. Return a JSON object with one field, questions, containing an array of question strings. Do not include answers, numbering or commentary.

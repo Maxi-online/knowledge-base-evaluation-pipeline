@@ -1,0 +1,14 @@
+openai==2.14.0
+httpx==0.28.1
+pydantic==2.12.5
+numpy==2.4.6
+pandas==2.3.3
+scikit-learn==1.9.1
+langchain==0.3.27
+langchain-core==0.3.86
+langchain-community==0.3.31
+langchain-openai==0.3.35
+langchain-text-splitters==0.3.11
+faiss-cpu==1.16.0
+requests==2.34.2
+beautifulsoup4==4.15.0

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "demo-retention",
+    "title": "Retention policy",
+    "content": {
+      "chunks": [
+        {
+          "id": "retention-1",
+          "text": "The fictional workspace retains ordinary event logs for 30 days. An administrator can export logs before expiry. This example is synthetic and does not describe a real customer."
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-access",
+    "title": "Access policy",
+    "content": {
+      "chunks": [
+        {
+          "id": "access-1",
+          "text": "The fictional workspace supports reader and editor roles. Readers can view records. Editors can create and update records. Only administrators grant roles."
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-backup",
+    "title": "Backup policy",
+    "content": {
+      "chunks": [
+        {
+          "id": "backup-1",
+          "text": "The demonstration backup policy requires a daily snapshot. A restore check is performed in an isolated environment before a snapshot is accepted."
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-api",
+    "title": "API policy",
+    "content": {
+      "chunks": [
+        {
+          "id": "api-1",
+          "text": "The fictional API uses a bounded request queue. A request that exceeds the queue limit receives a retry response. Clients must use stable request identifiers."
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-audit",
+    "title": "Audit policy",
+    "content": {
+      "chunks": [
+        {
+          "id": "audit-1",
+          "text": "The demonstration audit trail records an actor identifier, action and timestamp. Credentials and full private document contents are excluded from audit messages."
+        }
+      ]
+    }
+  },
+  {
+    "id": "demo-support",
+    "title": "Support policy",
+    "content": {
+      "chunks": [
+        {
+          "id": "support-1",
+          "text": "A fictional support ticket contains a summary and severity. The requester approves any transfer of personal contact details to a human support operator."
+        }
+      ]
+    }
+  }
+]

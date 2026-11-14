@@ -1,0 +1,1 @@
+Review the question, answer and supplied evidence. Return only a JSON object with accuracy, completeness, clarity and contextual_relevance. Each score must be a finite number from 0 to 5. Ground accuracy in the evidence; do not infer facts from your own knowledge. These are review estimates rather than ground-truth labels.

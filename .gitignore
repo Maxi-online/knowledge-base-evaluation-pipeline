@@ -1,0 +1,34 @@
+# Local credentials and deployment overrides
+.env
+.env.*
+!.env.example
+*.local.*
+config/local.config
+# Generated state, private corpora and vector caches
+var/
+vector_store/
+user_details/
+*.sqlite
+*.sqlite3
+*.db
+*.faiss
+*.pkl
+*.pickle
+*.log
+# Tooling and environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.DS_Store
+private/
+secrets/
+data/private/
